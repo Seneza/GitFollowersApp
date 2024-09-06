@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		3D7525372C8A907A003CFC83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525362C8A907A003CFC83 /* AppDelegate.swift */; };
 		3D7525392C8A907A003CFC83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525382C8A907A003CFC83 /* SceneDelegate.swift */; };
-		3D75253B2C8A907A003CFC83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75253A2C8A907A003CFC83 /* ViewController.swift */; };
 		3D7525402C8A907B003CFC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D75253F2C8A907B003CFC83 /* Assets.xcassets */; };
 		3D7525432C8A907B003CFC83 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3D7525422C8A907B003CFC83 /* Base */; };
+		3D75254B2C8A9A36003CFC83 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75254A2C8A9A36003CFC83 /* SearchViewController.swift */; };
+		3D75254D2C8A9A66003CFC83 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75254C2C8A9A66003CFC83 /* FavoritesListViewController.swift */; };
+		3D75254F2C8A9E51003CFC83 /* GitFollowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75254E2C8A9E51003CFC83 /* GitFollowerButton.swift */; };
+		3D7525512C8AA043003CFC83 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525502C8AA043003CFC83 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D7525332C8A907A003CFC83 /* GitFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7525362C8A907A003CFC83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D7525382C8A907A003CFC83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D75253A2C8A907A003CFC83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D75253F2C8A907B003CFC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7525422C8A907B003CFC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7525442C8A907B003CFC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D75254A2C8A9A36003CFC83 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3D75254C2C8A9A66003CFC83 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		3D75254E2C8A9E51003CFC83 /* GitFollowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerButton.swift; sourceTree = "<group>"; };
+		3D7525502C8AA043003CFC83 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				3D7525362C8A907A003CFC83 /* AppDelegate.swift */,
 				3D7525382C8A907A003CFC83 /* SceneDelegate.swift */,
-				3D75253A2C8A907A003CFC83 /* ViewController.swift */,
 				3D75253F2C8A907B003CFC83 /* Assets.xcassets */,
 				3D7525412C8A907B003CFC83 /* LaunchScreen.storyboard */,
 				3D7525442C8A907B003CFC83 /* Info.plist */,
+				3D75254A2C8A9A36003CFC83 /* SearchViewController.swift */,
+				3D75254C2C8A9A66003CFC83 /* FavoritesListViewController.swift */,
+				3D75254E2C8A9E51003CFC83 /* GitFollowerButton.swift */,
+				3D7525502C8AA043003CFC83 /* GFTextField.swift */,
 			);
 			path = GitFollowers;
 			sourceTree = "<group>";
@@ -134,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D75253B2C8A907A003CFC83 /* ViewController.swift in Sources */,
+				3D7525512C8AA043003CFC83 /* GFTextField.swift in Sources */,
+				3D75254F2C8A9E51003CFC83 /* GitFollowerButton.swift in Sources */,
+				3D75254B2C8A9A36003CFC83 /* SearchViewController.swift in Sources */,
 				3D7525372C8A907A003CFC83 /* AppDelegate.swift in Sources */,
+				3D75254D2C8A9A66003CFC83 /* FavoritesListViewController.swift in Sources */,
 				3D7525392C8A907A003CFC83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
