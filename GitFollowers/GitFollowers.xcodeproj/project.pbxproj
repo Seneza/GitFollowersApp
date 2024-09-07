@@ -22,6 +22,8 @@
 		3D75255B2C8BFF8C003CFC83 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75255A2C8BFF8C003CFC83 /* UIViewController+Extension.swift */; };
 		3D7525622C8C06E8003CFC83 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525612C8C06E8003CFC83 /* Follower.swift */; };
 		3D7525642C8C0763003CFC83 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525632C8C0763003CFC83 /* User.swift */; };
+		3D7525672C8C0AA5003CFC83 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525662C8C0AA5003CFC83 /* NetworkManager.swift */; };
+		3D75256A2C8C122E003CFC83 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525692C8C122E003CFC83 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		3D75255A2C8BFF8C003CFC83 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		3D7525612C8C06E8003CFC83 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		3D7525632C8C0763003CFC83 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D7525662C8C0AA5003CFC83 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3D7525692C8C122E003CFC83 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		3D7525352C8A907A003CFC83 /* GitFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				3D7525682C8C120A003CFC83 /* Utilities */,
+				3D7525652C8C0A95003CFC83 /* Managers */,
 				3D7525602C8C06D7003CFC83 /* Model */,
 				3D75255F2C8C03E5003CFC83 /* Support */,
 				3D75255E2C8C0377003CFC83 /* Extensions */,
@@ -132,6 +138,22 @@
 				3D7525632C8C0763003CFC83 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3D7525652C8C0A95003CFC83 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3D7525662C8C0AA5003CFC83 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3D7525682C8C120A003CFC83 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3D7525692C8C122E003CFC83 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +233,11 @@
 				3D75254F2C8A9E51003CFC83 /* GitFollowerButton.swift in Sources */,
 				3D75254B2C8A9A36003CFC83 /* SearchViewController.swift in Sources */,
 				3D7525532C8BF18C003CFC83 /* FollowerListViewController.swift in Sources */,
+				3D75256A2C8C122E003CFC83 /* ErrorMessage.swift in Sources */,
 				3D7525572C8BF802003CFC83 /* GFBodyLabel.swift in Sources */,
 				3D7525622C8C06E8003CFC83 /* Follower.swift in Sources */,
 				3D7525552C8BF6E9003CFC83 /* GFTitleLabel.swift in Sources */,
+				3D7525672C8C0AA5003CFC83 /* NetworkManager.swift in Sources */,
 				3D7525372C8A907A003CFC83 /* AppDelegate.swift in Sources */,
 				3D75254D2C8A9A66003CFC83 /* FavoritesListViewController.swift in Sources */,
 				3D7525392C8A907A003CFC83 /* SceneDelegate.swift in Sources */,
