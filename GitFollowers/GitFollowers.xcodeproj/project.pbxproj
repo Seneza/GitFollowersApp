@@ -26,6 +26,7 @@
 		3D75256A2C8C122E003CFC83 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525692C8C122E003CFC83 /* ErrorMessage.swift */; };
 		3D75256D2C8C179B003CFC83 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75256C2C8C179B003CFC83 /* FollowerCell.swift */; };
 		3D75256F2C8C1818003CFC83 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75256E2C8C1818003CFC83 /* GFAvatarImageView.swift */; };
+		3D7525712C8C2805003CFC83 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7525702C8C2805003CFC83 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		3D7525692C8C122E003CFC83 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		3D75256C2C8C179B003CFC83 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		3D75256E2C8C1818003CFC83 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		3D7525702C8C2805003CFC83 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				3D7525692C8C122E003CFC83 /* ErrorMessage.swift */,
+				3D7525702C8C2805003CFC83 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				3D75255B2C8BFF8C003CFC83 /* UIViewController+Extension.swift in Sources */,
 				3D7525512C8AA043003CFC83 /* GFTextField.swift in Sources */,
 				3D75254F2C8A9E51003CFC83 /* GitFollowerButton.swift in Sources */,
+				3D7525712C8C2805003CFC83 /* UIHelper.swift in Sources */,
 				3D75256F2C8C1818003CFC83 /* GFAvatarImageView.swift in Sources */,
 				3D75254B2C8A9A36003CFC83 /* SearchViewController.swift in Sources */,
 				3D7525532C8BF18C003CFC83 /* FollowerListViewController.swift in Sources */,
