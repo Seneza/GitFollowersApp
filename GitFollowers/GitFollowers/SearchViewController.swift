@@ -19,12 +19,18 @@ class SearchViewController: UIViewController {
         configureLogoImageView()
         configureTextField()
         configureGitFollowerButton()
+        dismissKeyboardTapGesture()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
-        
+    }
+    
+    func dismissKeyboardTapGesture() {
+        // Basic tap gesture
+        let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
     }
     
     func configureLogoImageView() {
