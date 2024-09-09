@@ -1,0 +1,3 @@
+#Ignore xcode user interface satte files
+*.xcuserstate
+xcuserdata/
