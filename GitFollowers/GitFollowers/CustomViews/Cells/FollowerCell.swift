@@ -24,12 +24,16 @@ class FollowerCell: UICollectionViewCell {
     
     func set(follower: Follower) {
         usernameLabel.text = follower.login
+        avatarImageView.downloadImage(from: follower.avatarUrl)
     }
     
     private func configure() {
         addSubview(avatarImageView)
         addSubview(usernameLabel)
         
+        
+        avatarImageView.translatesAutoresizingMaskIntoConstraints = false
+        usernameLabel.translatesAutoresizingMaskIntoConstraints = false
         let padding: CGFloat = 8
         
         NSLayoutConstraint.activate([
