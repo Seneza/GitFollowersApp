@@ -31,16 +31,19 @@ class FollowerCell: UICollectionViewCell {
         addSubview(avatarImageView)
         addSubview(usernameLabel)
         
-        
+        avatarImageView.contentMode = .scaleAspectFit
         avatarImageView.translatesAutoresizingMaskIntoConstraints = false
         usernameLabel.translatesAutoresizingMaskIntoConstraints = false
         let padding: CGFloat = 8
         
         NSLayoutConstraint.activate([
             avatarImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: padding),
-            avatarImageView.leadingAnchor.constraint(lessThanOrEqualTo: contentView.leadingAnchor, constant: padding),
+//            avatarImageView.leadingAnchor.constraint(lessThanOrEqualTo: contentView.leadingAnchor, constant: padding),
             avatarImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
             avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor),
+            avatarImageView.widthAnchor.constraint(equalToConstant: 80),
+            avatarImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
+
             
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 12),
             usernameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
